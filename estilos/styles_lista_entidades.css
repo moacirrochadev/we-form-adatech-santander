@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+}
+
+h1 span, h2 span {
+    color: #FF5678;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:32px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+.entidades-cadastradas{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42.19px;
+}
+
+p{
+    font-family: 'Popins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.entidades{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.entidades span{
+    font-family: 'Popins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #35E6E9;
+    border: 1px solid #35E6E9;
+    border-radius: 12px;
+    padding: 8px 32px;
+}
+
+.entidades a{
+    font-family: 'Popins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FF5678;
+}
+
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin: 16px 0;
+    width: 100%;
+}
